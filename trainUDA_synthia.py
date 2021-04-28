@@ -526,7 +526,6 @@ def main():
                 L_u2 = consistency_weight * unlabeled_loss(logits_u_s_init, targets_u, pixelWiseWeight)
                 L_D =  loss_depth_calc(depth_pred_u, depth_u.detach())
                 L_D2 = loss_depth_calc(depth_pred_ui, depth_u.detach())
-                print("D_target", L_D2, L_D)
             loss = L_l + L_u + L_u2 + 0.001 * (L_D + L_D2)
 
         else:
