@@ -1,0 +1,16 @@
+../data
+    ├── CityScapes
+    │   ├── depth
+    │   ├── disparity
+    │   ├── gtFine_trainvaltest
+    │   └── leftImg8bit_trainvaltest
+    ├── RAND_CITYSCAPES
+    │   ├── Depth
+    │   ├── GT
+    │   ├── RGB
+    │   └── synthia_mapped_to_cityscapes
+    └── gta
+        ├── disparity
+        ├── images
+        └── labels
+
