@@ -4,8 +4,8 @@ Code for our paper [Domain Adaptive Semantic Segmentation with Self-Supervised D
 ## Prerequisite
 Please create and activate the following conda envrionment 
 ```bash
-conda env create -f environment.yml
 # It may take several minutes for conda to solve the environment
+conda env create -f environment.yml
 conda activate corda 
 ```
 Code was tested on a V100 with 16G Memory.
