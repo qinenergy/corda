@@ -1,5 +1,5 @@
 # CorDA
-Code for our paper [Domain Adaptive Semantic Segmentation with Self-Supervised Depth Estimation](https://arxiv.org/pdf/) 
+Code for our paper [Domain Adaptive Semantic Segmentation with Self-Supervised Depth Estimation](http://arxiv.org/abs/2104.13613) 
 
 ## Prerequisite
 Please create and activate the following conda envrionment 
@@ -31,7 +31,11 @@ Pre-trained models are provided ([Google Drive](https://drive.google.com/file/d/
 ## Citation
 Please cite our work if you find it useful.
 ```bibtex
-
+@inproceedings{Wang2021DomainAS,
+  title={Domain Adaptive Semantic Segmentation with Self-Supervised Depth Estimation},
+  author={Qin Wang and Dengxin Dai and Lukas Hoyer and Olga Fink and L. Gool},
+  year={2021}
+}
 ```
 
 ## Acknowledgement 
