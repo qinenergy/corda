@@ -31,10 +31,13 @@ Pre-trained models are provided ([Google Drive](https://drive.google.com/file/d/
 ## Citation
 Please cite our work if you find it useful.
 ```bibtex
-@inproceedings{Wang2021DomainAS,
-  title={Domain Adaptive Semantic Segmentation with Self-Supervised Depth Estimation},
-  author={Qin Wang and Dengxin Dai and Lukas Hoyer and Olga Fink and L. Gool},
-  year={2021}
+@misc{wang2021domain,
+      title={Domain Adaptive Semantic Segmentation with Self-Supervised Depth Estimation}, 
+      author={Qin Wang and Dengxin Dai and Lukas Hoyer and Olga Fink and Luc Van Gool},
+      year={2021},
+      eprint={2104.13613},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 
