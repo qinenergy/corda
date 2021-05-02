@@ -46,7 +46,7 @@ Please cite our work if you find it useful.
 + SFSU as the source of stereo Cityscapes depth estimation [Official](https://people.ee.ethz.ch/~csakarid/SFSU_synthetic/) 
 
 ## Data links
-+ Download [linkes](https://qin.ee/depth/) 
++ Download [links](https://qin.ee/depth/) 
     + Stereo Depth Estimation for Cityscapes
     + Mono Depth Estimation for GTA
 + Dataset Folder Structure [Tree](./extra/data_tree)
