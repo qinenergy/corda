@@ -1,5 +1,6 @@
 # CorDA
 Code for our paper [Domain Adaptive Semantic Segmentation with Self-Supervised Depth Estimation](http://arxiv.org/abs/2104.13613) 
+<img src="./extra/fig.png" alt="alt text" width="500" height="350">
 
 ## Prerequisite
 Please create and activate the following conda envrionment 
@@ -27,6 +28,15 @@ Pre-trained models are provided ([Google Drive](https://drive.google.com/file/d/
 
 + The provided SYNTHIA2Cityscapes model achieves 56.3 mIoU (16 classes) at the end of the training. 
 + The provided GTA2Cityscapes model achieves 57.7 mIoU (19 classes) at the end of the training.
+
+Reported Results on SYNTHIA2Cityscapes
+| Method | mIoU*(13)| mIoU(16) |
+| -------- | -------- | -------- |
+|  CBST   | 48.9   | 42.6     |
+|  FDA    | 52.5   | -        |
+|  DADA   | 49.8   | 42.6     |
+|  DACS   | 54.8   | 48.3     |
+|**CorDA**| **62.8**   | **55.0**     |
 
 ## Citation
 Please cite our work if you find it useful.
