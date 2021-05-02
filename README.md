@@ -1,6 +1,6 @@
 # CorDA
 Code for our paper [Domain Adaptive Semantic Segmentation with Self-Supervised Depth Estimation](http://arxiv.org/abs/2104.13613) 
-<img src="./extra/fig.png" alt="alt text" width="500" height="350">
+<img src="./extra/fig.png" alt="alt text" width="50%" height="50%">
 
 ## Prerequisite
 Please create and activate the following conda envrionment 
