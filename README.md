@@ -41,13 +41,11 @@ Reported Results on SYNTHIA2Cityscapes
 ## Citation
 Please cite our work if you find it useful.
 ```bibtex
-@misc{wang2021domain,
-      title={Domain Adaptive Semantic Segmentation with Self-Supervised Depth Estimation}, 
-      author={Qin Wang and Dengxin Dai and Lukas Hoyer and Olga Fink and Luc Van Gool},
-      year={2021},
-      eprint={2104.13613},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{wang2021domain,
+  title={Domain Adaptive Semantic Segmentation with Self-Supervised Depth Estimation},
+  author={Wang, Qin and Dai, Dengxin and Hoyer, Lukas and Fink, Olga and Van Gool, Luc},
+  journal={arXiv preprint arXiv:2104.13613},
+  year={2021}
 }
 ```
 
