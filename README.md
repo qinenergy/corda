@@ -59,6 +59,8 @@ Please cite our work if you find it useful.
 + Download [links](https://qin.ee/depth/) 
     + Stereo Depth Estimation for Cityscapes
     + Mono Depth Estimation for GTA
+    + SYNTHIA Depth and images [SYNTHIA-RAND-CITYSCAPES (CVPR16)
+](http://synthia-dataset.net/downloads/)
 + Dataset Folder Structure [Tree](./extra/data_tree)
 
 
