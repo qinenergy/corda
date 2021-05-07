@@ -18,7 +18,6 @@ bash run_synthia_stereo.sh
 # Train for the GTA2Cityscapes task
 bash run_gta.sh
 ```
-For better reproducibility, we reran our experiments on two different machines and provide the [Tensorboard](https://www.qin.ee/2021/05/08/example-training-curves/) for the training of CorDA. 
 
 ## Test the trained model
 ```bash
