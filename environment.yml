@@ -1,4 +1,4 @@
-name: corda 
+name: corda-aws 
 channels:
   - pytorch
   - fastai
@@ -19,9 +19,9 @@ dependencies:
   - tqdm=4.42.1=py_0
   - pip=21.0.1
   - yaml=0.1.7=had09818_2
-  - pytorch=1.7.1 
-  - torchvision=0.8.2 
-  - cudatoolkit=11.0
+  - pytorch=1.7.1=py3.7_cuda11.0.221_cudnn8.0.5_0 
+  - torchvision=0.8.2=py37_cu110 
+  - cudatoolkit=11.0.3=h15472ef_8
   - pip:
     - kornia==0.4.1
     - opencv-python==4.4.0.46

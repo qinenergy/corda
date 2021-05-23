@@ -241,8 +241,6 @@ class ResNet(nn.Module):
         out = {}
         # Initial predictions for every task including auxilary tasks
         x = self.initial_task_prediction_heads(x)
-        for task in self.auxilary_tasks:
-            out['initial_%s' %(task)] = x[task]
         # Refine features through multi-modal distillation
         x = self.multi_modal_distillation(x)
 
@@ -324,11 +322,8 @@ class InitialTaskPredictionModule(nn.Module):
                 downsample = None
             bottleneck1 = BottleneckPad(input_channels, intermediate_channels//4, downsample=downsample)
             bottleneck2 = BottleneckPad(intermediate_channels, intermediate_channels//4, downsample=None)
-            conv_out_ = nn.Conv2d(intermediate_channels, NUM_OUTPUT[task], 1)
             layers[task] = nn.Sequential(bottleneck1, bottleneck2)
-            conv_out[task] = conv_out_
         self.layers = nn.ModuleDict(layers)
-        self.conv_out = nn.ModuleDict(conv_out)
 
 
     def forward(self, x):
@@ -336,7 +331,6 @@ class InitialTaskPredictionModule(nn.Module):
         
         for task in self.tasks:
             out['features_%s' %(task)] = self.layers[task](x)
-            out[task] = self.conv_out[task](out['features_%s' %(task)])
         return out 
 
 
