@@ -8,7 +8,7 @@ Please create and activate the following conda envrionment
 # It may take several minutes for conda to solve the environment
 conda update conda
 conda env create -f environment.yml
-conda activate corda-aws 
+conda activate corda 
 ```
 Code was tested on a V100 with 16G Memory.
 
