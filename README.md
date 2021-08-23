@@ -1,5 +1,5 @@
 # CorDA
-Code for our paper [Domain Adaptive Semantic Segmentation with Self-Supervised Depth Estimation](http://arxiv.org/abs/2104.13613) 
+Code for our paper [Domain Adaptive Semantic Segmentation with Self-Supervised Depth Estimation ICCV21](http://arxiv.org/abs/2104.13613) 
 <img src="./extra/fig.png" alt="alt text" width="50%" height="50%">
 
 ## Prerequisite
@@ -42,11 +42,11 @@ Reported Results on SYNTHIA2Cityscapes
 ## Citation
 Please cite our work if you find it useful.
 ```bibtex
-@article{wang2021domain,
+@inproceedings{wang2021domain,
   title={Domain Adaptive Semantic Segmentation with Self-Supervised Depth Estimation},
-  author={Wang, Qin and Dai, Dengxin and Hoyer, Lukas and Fink, Olga and Van Gool, Luc},
-  journal={arXiv preprint arXiv:2104.13613},
-  year={2021}
+  author={Wang, Qin and Li, Wen and Gool, Luc Van},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  year={2019}
 }
 ```
 
