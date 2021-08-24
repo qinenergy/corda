@@ -1,7 +1,7 @@
 ../data
     ├── CityScapes
     │   ├── depth       # From https://people.ee.ethz.ch/~csakarid/SFSU_synthetic/, also downloadable at https://www.qin.ee/depth/
-    │   ├── disparity   # Our generated monodepth 0-65535 in normalized disparity | NOT the cityscapes official disparity because SGM stereo info was used. 
+    │   ├── disparity   # Our generated monodepth 0-65535 in normalized disparity | NOT the cityscapes official disparity data because stereo info was used by their SGM approach. 
     │   ├── gtFine_trainvaltest
     │   └── leftImg8bit_trainvaltest
     ├── RAND_CITYSCAPES
