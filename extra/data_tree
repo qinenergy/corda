@@ -1,16 +1,16 @@
 ../data
     ├── CityScapes
-    │   ├── depth
-    │   ├── disparity
+    │   ├── depth       # From https://people.ee.ethz.ch/~csakarid/SFSU_synthetic/, also downloadable at https://www.qin.ee/depth/
+    │   ├── disparity   # Our generated monodepth 0-65535 in normalized disparity | NOT the cityscapes official disparity because SGM stereo info was used. 
     │   ├── gtFine_trainvaltest
     │   └── leftImg8bit_trainvaltest
     ├── RAND_CITYSCAPES
     │   ├── Depth
     │   ├── GT
     │   ├── RGB
-    │   └── synthia_mapped_to_cityscapes
+    │   └── synthia_mapped_to_cityscapes # downloadable at https://www.qin.ee/depth/
     └── gta
-        ├── disparity
+        ├── disparity # Our generated monodepth 0-65535 in normalized disparity, downloadable at https://www.qin.ee/depth/
         ├── images
         └── labels
 
