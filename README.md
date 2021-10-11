@@ -30,7 +30,7 @@ Pre-trained models are provided ([Google Drive](https://drive.google.com/file/d/
 + The provided SYNTHIA2Cityscapes model achieves 56.3 mIoU (16 classes) at the end of the training. 
 + The provided GTA2Cityscapes model achieves 57.7 mIoU (19 classes) at the end of the training.
 
-Reported Results on SYNTHIA2Cityscapes
+Reported Results on SYNTHIA2Cityscapes (The reported results are based on 5 runs instead of the best run.)
 | Method | mIoU*(13)| mIoU(16) |
 | -------- | -------- | -------- |
 |  CBST   | 48.9   | 42.6     |
