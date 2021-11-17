@@ -20,9 +20,9 @@ bash run_synthia_stereo.sh
 bash run_gta.sh
 ```
 
-## Test a trained model with full resolution
+## Test a trained CorDA model
 ```bash
-bash shells/eval_syn2city.sh
+bash shells/eval_syn2city.sh 
 bash shells/eval_gta2city.sh
 ```
 Pre-trained models are provided ([Google Drive](https://drive.google.com/file/d/1yYV5O7In2sgYKA9cY8-12p9VdyWtRuFH/view?usp=sharing)). Please put them in `./checkpoint`. 
