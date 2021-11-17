@@ -20,7 +20,7 @@ bash run_synthia_stereo.sh
 bash run_gta.sh
 ```
 
-## Test the trained model
+## Test a trained model with full resolution
 ```bash
 bash shells/eval_syn2city.sh
 bash shells/eval_gta2city.sh
