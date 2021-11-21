@@ -3,14 +3,14 @@ Code for our paper [Domain Adaptive Semantic Segmentation with Self-Supervised D
 <img src="./extra/fig.png" alt="alt text" width="50%" height="50%">
 
 ## Prerequisite
-Please create and activate the following conda envrionment. 
+Please create and activate the following conda envrionment. To reproduce our results, please kindly create and use this environment.
 ```bash
 # It may take several minutes for conda to solve the environment
 conda update conda
 conda env create -f environment.yml
 conda activate corda 
 ```
-Code was tested on a V100 with 16G Memory. To reproduce our results, please kindly create and use this environment.
+Code was tested on a V100 with 16G Memory. 
 
 ## Train a CorDA model
 ```bash
