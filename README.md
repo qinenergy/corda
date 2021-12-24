@@ -44,7 +44,7 @@ Please cite our work if you find it useful.
 ```bibtex
 @inproceedings{wang2021domain,
   title={Domain Adaptive Semantic Segmentation with Self-Supervised Depth Estimation},
-  author={Wang, Qin and Dai, Dengxin and Hoyer, Lukas and Fink, Olga and Van Gool, Luc},
+  author={Wang, Qin and Dai, Dengxin and Hoyer, Lukas and Van Gool, Luc and Fink, Olga},
   booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
   year={2021}
 }
